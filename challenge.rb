@@ -1,4 +1,4 @@
-
+Require 'Pry'
 def balanced_brackets?(string)
   # your code here
   return false if string.length.odd?
@@ -25,3 +25,4 @@ puts balanced_brackets?('([)]')
 
 puts balanced_brackets?('[({}{}{})([])]')
 # => true
+binding.pry
