@@ -3,7 +3,6 @@ def balanced_brackets?(string)
   # your code here
   return false if string.length.odd?
   return false if string =~ /[^\[\]\(\)\{\}]/
-
   pairs = { '{' => '}', '[' => ']', '(' => ')' }
 
   stack = []
